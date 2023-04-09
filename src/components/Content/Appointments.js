@@ -42,7 +42,7 @@ export default () => {
   return (
     <Box>
       <Flex fontSize="sm" textColor="gray.400">
-        <Text>Previous Treatment</Text>
+        <Text>Appointments</Text>
         <Spacer />
         <Text
           fontWeight="semibold"

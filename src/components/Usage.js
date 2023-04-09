@@ -38,14 +38,14 @@ export default () => {
   return (
     <Box ml={6} mr={4}>
       <Flex mb={4} textColor="gray.400" fontSize="sm">
-        <Text>Date</Text>
+        <Text>Daily Usage</Text>
         <Spacer />
         <Text
           fontWeight="semibold"
           textColor="blackAlpha.700"
           _hover={{ cursor: "pointer" }}
         >
-          Usage
+          VIEW ALL
         </Text>
       </Flex>
       <Stack>

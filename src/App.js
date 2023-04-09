@@ -5,7 +5,7 @@ import { Center } from "@chakra-ui/layout";
 import { Box } from "@chakra-ui/layout";
 import { FiPlus } from "react-icons/fi";
 import PatientCard from "./components/Content/PatientCard";
-import TreatmentHistory from "./components/Content/TreatmentHistory";
+import Appointments from "./components/Content/Appointments";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Usage from "./components/Usage";
@@ -43,7 +43,7 @@ function App() {
           </Center>
         </GridItem>
         <GridItem colSpan={6}>
-          <TreatmentHistory />
+          <Appointments />
         </GridItem>
       </SimpleGrid>
     </Box>
