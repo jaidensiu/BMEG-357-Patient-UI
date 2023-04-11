@@ -53,9 +53,9 @@ export default () => {
         </Text>
       </Flex>
       <Stack mt={4} spacing={4}>
-        <Item title="Check-up Appointment" date="April 12, 2023" amount="Upcoming" isSent />
-        <Item title="Surgery" date="April 1, 2023" amount="Previous" />
-        <Item title="Consultation" date="March 23, 2023" amount="Previous" />
+        <Item title="Check-up Appointment" date="9:00AM - 9:30AM on April 12, 2023" amount="Upcoming" isSent />
+        <Item title="Surgery" date="8:00AM - 9:00AM on April 1, 2023" amount="Previous" />
+        <Item title="Consultation" date="3:30PM - 4:00PM on March 23, 2023" amount="Previous" />
         <Spacer />
         <Spacer />
       </Stack>
